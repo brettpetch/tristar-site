@@ -2,53 +2,120 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta content="Tri-Star Metal Stamping is " name="description">
+	<meta content="Tri-Star, Stamping, Press, Metal Stamping, Sheet Metal, Shop, Tool and Die, Tool, Die"
+	      name="keywords">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>Tri-Star Metal Stamping Inc.</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+	<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+	<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+	<!-- Google Structured Data View, DO NOT MODIFY -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Newmarket",
+				"addressRegion": "ON",
+				"postalCode": "L3Y 8W1",
+				"streetAddress": "1267 Kerrisdale Blvd"
+			},
+			"url": "http://www.tristarstamping.ca",
+			"logo": "http://www.tristarstamping.ca/logo.png",
+			"contactPoint": [
+				{
+					"@type": "ContactPoint",
+					"telephone": "+1-905-853-5883",
+					"contactType": "customer service"
+				}
+			]
+		}
+	</script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 <script>
     var _umb = {
         require: {
             ie: 10
         }
     };
-    (function(u) {
-        var s = document.createElement('script'); s.async = true; s.src = u;
-        var b = document.getElementsByTagName('script')[0]; b.parentNode.insertBefore(s, b);
+    (function (u) {
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = u;
+        var b = document.getElementsByTagName('script')[0];
+        b.parentNode.insertBefore(s, b);
     })('//updatemybrowser.org/umb.js');
+    // Add scrollspy to <body>
+    $('body').scrollspy({target: ".navbar", offset: 50});
+
+    // Add smooth scrolling on all links inside the navbar
+    $("#NaVbar a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+// Prevent default anchor click behavior
+            event.preventDefault();
+
+// Store hash
+            var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+
+        } // End if
+    });
+    document.addEventListener('visibilitychange', function () {
+        // Pause video when page is hidden.
+        if (document.hidden) {
+            video.pause();
+        }
+    });
 </script>
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" id="NaVbar" data-spy="affix"
+     data-offset-top="197">
 	<div class="container">
 		<a class="navbar-brand" href="#">
 			Tri-Star Metal Stamping Inc.
 		</a>
-		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-		        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		<button aria-controls="navbarResponsive" aria-expanded="false" aria-haspopup="true"
+		        aria-label="Toggle navigation"
+		        class="navbar-toggler collapsed" data-target="#navbarResponsive" data-toggle="collapse"
+		        role="button" type="button">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="navbar-collapse collapse" id="navbarResponsive" style="">
+		<div class="navbar-collapse collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Services</a>
+					<a class="nav-link" href="#services">Services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Facilities</a>
+					<a class="nav-link" href="#facilities">Facilities</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Portfolio</a>
+					<a class="nav-link" href="#portfolio">Portfolio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="#contact">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
-<header class="masthead text-center text-white">
-	<video id="video-background" preload muted autoplay loop>
+<header class="masthead text-center text-white" id="top">
+	<video autoplay id="video-background" loop muted preload="auto">
 		<source src="video/vbr_good_8_transfer.webm" type="video/webm">
 		<source src="video/vbr_good_8_transfer_720.webm" type="video/webm">
 		<source src="video/vbr_good_8_transfer_480.webm" type="video/webm">
@@ -58,284 +125,569 @@
 	</video>
 	<div class="masthead-content">
 		<div class="container">
-			<h1 class="masthead-heading mb-0">Tri-Star Metal Stamping</h1>
-			<h2 class="masthead-subheading mb-0">Professional. Precision. Perfection.</h2>
-			<a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+			<h1 class="masthead-heading mb-0" data-aos="zoom-in">Tri-Star Metal Stamping</h1>
+			<h2 class="masthead-subheading mb-0" data-aos="zoom-in-up" data-aos-delay="200">Professional. Precision.
+				Perfection.</h2>
+			<a class="btn btn-primary btn-xl rounded-pill mt-5"
+			   data-aos="fade-up"
+			   data-aos-delay="400"
+			   data-aos-anchor-placement="top-bottom" href="#services">Learn More</a>
 		</div>
 	</div>
 </header>
-<section class="main bg-black text-white">
+<main class="main bg-black text-white container-fluid">
 	<section id="services">
-		<div class="container-fluid">
-			<div class="mb-3 text-center">
-				<div class="mb-4">
-					<i class="fas fa-wrench fa-10x"></i>
-					<h3 class="display-3">Services</h3>
+		<div class="container">
+			<div class="row d-flex p-5">
+				<div class="col-md-4 ml-auto display-2" data-aos="zoom-in-right"
+				     data-aos-anchor-placement="bottom-bottom">
+					<i class="fas fa-wrench fa-2x text-center"></i>
+					<h2 class="display-4 text-uppercase">Services</h2>
 				</div>
-				<div class="mb-4">
-					<p>Tri-Star Metal Stamping is a large Tier 2 Automotive supplier of stamped components running
-						several presses accomodating up to 600 tons, and verying specifications of bolster sizes up to
-						144" by 60". Tool maintenance and repairs are expertly performed by professional toolmakers, in
-						the fully equipped designated die maintenance area. In-house CMM capabilities allow for
-						verification of our products and processes. Our Quality System will provide you with all QS9000/
-						ISO/ TS 16949 requirements including APQP and PPAP methodology.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="facilities">
-		<div class="container-fluid">
-			<div class="text-center">
-				<div class="">
-					<i class="fas fa-wrench fa-10x"></i>
-					<h3 class="display-3">Facilities</h3>
-				</div>
-				<div class="container text-black-50">
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-4.jpg" srcset="img/originals/tristar-4.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">600 Ton Blow press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">144X60 Bolster Size</li>
-									<li class="list-group-item">12 inch Stroke, 20-60 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 24,000 lbs., 48 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-15.jpg" srcset="img/originals/tristar-15.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">600 Ton Eagle Press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">144X60 Bolster Size</li>
-									<li class="list-group-item">12 inch Stroke, 20-45 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 24,000 lbs., 36 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-6.jpg" srcset="img/originals/tristar-6.webp" alt="Card image cap">
-							     alt="500 Ton Warco/McKay Press">
-							<div class="card-body">
-								<h5 class="card-title">500 Ton Warco/McKay Press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">108 X 54 inch Bolster Size</li>
-									<li class="list-group-item">8 inch Stroke, 50 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 10,000 lbs., 36 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">400 Ton Eagle Press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">108X48 inch Bolster Size</li>
-									<li class="list-group-item">12 inch Stroke, 25-50 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 20,000 lbs., 24 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">400 Ton Blow Press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">120 X 54 inch Bolster Size</li>
-									<li class="list-group-item">12 inch Stroke, 25-60 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 10,000 lbs., 24 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">400 Ton Blow Press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">108 X 48 inch Bolster Size</li>
-									<li class="list-group-item">12 inch Stroke, 30-60 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 10,000 lbs., 24 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">400 Ton Blow Press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">84 X 42 inch Bolster Size</li>
-									<li class="list-group-item">8 inch Stroke, 25-70 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 10,000 lbs., 12 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">176 Ton Press</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">80 X 30 inch Bolster Size</li>
-									<li class="list-group-item">7.9 inch Stroke, 30-50 Strokes per Minute</li>
-									<li class="list-group-item">Decoiler - 10,000 lbs., 12 inch width capacity</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Decoilers</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">Mecon Cradle Straightners</li>
-									<li class="list-group-item">12–36 inch width capacity</li>
-									<li class="list-group-item">10,000 – 24,000 lbs.</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Feeders</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">Mecon Feeders</li>
-									<li class="list-group-item">Material Capacity, 12-36 inches wide</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Material Handling</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">Hyster Lift Trucks (5) 6.000lbs. - 13,000 lbs.</li>
-									<li class="list-group-item">Royal Lift Truck 28,000 lbs.</li>
-									<li class="list-group-item">7.5 Ton - 10 Ton Munck Cranes (2)</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Die Maintenance Tool Room</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">Chevalier Surface Grinders</li>
-									<li class="list-group-item">FSG-3A1224 12 X 24 inch bed</li>
-									<li class="list-group-item">Harig - 618W 12 X 24 inch bed</li>
-									<li class="list-group-item">FSG - 618M 12 X 24 inch bed</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Milling Machines</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">Bridgeport Mill - 602</li>
-									<li class="list-group-item">Ex-cell-o Mill - 602</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Radial Drills</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">MAS Drill #VR2</li>
-									<li class="list-group-item">Stanko Drill # CS1600</li>
-								</ul>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="img/originals/tristar-17.jpg" srcset="img/originals/tristar-17.webp" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">This is a wider card with supporting text below as a natural</li>
-									<li class="list-group-item">lead-in to additional content. This content is a little bit longer.</li>
-								</ul>
-							</div>
-						</div>
+				<div class="col-md-6 ml-auto" data-aos="zoom-in-left" data-aos-anchor-placement="bottom-bottom">
+					<div>
+						<p>Tri-Star Metal Stamping is a large Tier 2 Automotive supplier of stamped components
+							running
+							several presses accomodating up to 600 tons, and verying specifications of bolster
+							sizes up to
+							144" by 60". Tool maintenance and repairs are expertly performed by professional
+							toolmakers,
+							in the fully equipped designated die maintenance area. In-house CMM capabilities
+							allow for
+							verification of our products and processes. Our Quality System will provide you with
+							all QS9000/
+							ISO/ TS 16949 requirements including APQP and PPAP methodology.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-</section>
-<footer class="page-footer font-small bg-black pt-4">
-	<div class="container-fluid text-center text-md-left">
-		<div class="row">
-			<div class="col-md-6 mt-md-0 mt-3 text-white">
-				<h5 class="text-uppercase">Tri-Star Metal Stamping Inc.</h5>
-				<p>Professional. Precision. Perfection.</p>
+	<section id="facilities" class="container-fluid">
+		<div class="row d-flex">
+			<div class="container m-4 col-md-2 ml-auto display-2" data-aos="fade-up">
+				<i class="fas fa-building fa-2x text-center"></i>
+				<h2 class="display-4 text-uppercase">Facilities</h2>
 			</div>
-			<hr class="clearfix w-100 d-md-none pb-3">
-			<div class="col-md-3 md-md-0 mb-3 text-white">
-				<h5 class="text-uppercase">Links</h5>
-				<ul class="list-unstyled">
-					<li>
-						<a href="#services">Services</a>
-					</li>
-					<li>
-						<a href="#facilities">Facilities</a>
-					</li>
-					<li>
-						<a href="#portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a href="#contact">Contact</a>
-					</li>
-				</ul>
+			<div class="container text-black-50 col-md-8 ml-auto">
+				<div class="card-deck p-3" data-aos="fade-up">
+					<div class="card">
+						<img alt="Card image cap" class="card-img-top"
+						     src="img/facility/tristar-4.jpg" srcset="img/facility/tristar-4.webp">
+						<div class="card-body">
+							<h5 class="card-title">600 Ton Blow press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">144X60 Bolster Size</li>
+								<li class="list-group-item">12 inch Stroke, 20-60 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 24,000 lbs., 48 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="Card image cap" class="card-img-top"
+						     src="img/facility/tristar-4.jpg" srcset="img/facility/tristar-4.webp">
+						<div class="card-body">
+							<h5 class="card-title">600 Ton Eagle Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">144X60 Bolster Size</li>
+								<li class="list-group-item">12 inch Stroke, 20-45 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 24,000 lbs., 36 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="Card image cap" class="card-img-top"
+						     src="img/facility/tristar-6.jpg" srcset="img/facility/tristar-6.webp">
+						<div class="card-body">
+							<h5 class="card-title">500 Ton Warco/McKay Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">108 X 54 inch Bolster Size</li>
+								<li class="list-group-item">8 inch Stroke, 50 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 10,000 lbs., 36 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card-deck p-3" data-aos="fade-left">
+					<div class="card">
+						<img alt="Card image cap" class="card-img-top"
+						     src="img/facility/tristar-8.jpg" srcset="img/facility/tristar-8.webp">
+						<div class="card-body">
+							<h5 class="card-title">400 Ton Eagle Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">108X48 inch Bolster Size</li>
+								<li class="list-group-item">12 inch Stroke, 25-50 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 20,000 lbs., 24 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="400 Ton Blow Press" class="card-img-top" src="img/facility/tristar-18.jpg"
+						     srcset="img/facility/tristar-18.webp">
+						<div class="card-body">
+							<h5 class="card-title">400 Ton Blow Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">120 X 54 inch Bolster Size</li>
+								<li class="list-group-item">12 inch Stroke, 25-60 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 10,000 lbs., 24 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="400 Ton Blow Press" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">400 Ton Blow Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">108 X 48 inch Bolster Size</li>
+								<li class="list-group-item">12 inch Stroke, 30-60 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 10,000 lbs., 24 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card-deck p-3" data-aos="fade-left">
+					<div class="card">
+						<img alt="400 Ton Blow Press" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">400 Ton Blow Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">84 X 42 inch Bolster Size</li>
+								<li class="list-group-item">8 inch Stroke, 25-70 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 10,000 lbs., 12 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="176 Ton Press" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">176 Ton Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">80 X 30 inch Bolster Size</li>
+								<li class="list-group-item">7.9 inch Stroke, 30-50 Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - 10,000 lbs., 12 inch width capacity</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="Decoilers" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">Decoilers</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">Mecon Cradle Straightners</li>
+								<li class="list-group-item">12–36 inch width capacity</li>
+								<li class="list-group-item">10,000 – 24,000 lbs.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card-deck p-3" data-aos="fade-left">
+					<div class="card">
+						<img alt="Feeders" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">Feeders</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">Mecon Feeders</li>
+								<li class="list-group-item">Material Capacity, 12-36 inches wide</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="Material Handling" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">Material Handling</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">Hyster Lift Trucks (5) 6.000lbs. - 13,000 lbs.</li>
+								<li class="list-group-item">Royal Lift Truck 28,000 lbs.</li>
+								<li class="list-group-item">7.5 Ton - 10 Ton Munck Cranes (2)</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="Die Maintenance Tool Room" class="card-img-top"
+						     src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">Die Maintenance Tool Room</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">Chevalier Surface Grinders</li>
+								<li class="list-group-item">FSG-3A1224 12 X 24 inch bed</li>
+								<li class="list-group-item">Harig - 618W 12 X 24 inch bed</li>
+								<li class="list-group-item">FSG - 618M 12 X 24 inch bed</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card-deck p-3" data-aos="fade-left">
+					<div class="card">
+						<img alt="Milling Machines" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">Milling Machines</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">Bridgeport Mill - 602</li>
+								<li class="list-group-item">Ex-cell-o Mill - 602</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="Radial Drills" class="card-img-top" src="img/facility/tristar-17.jpg"
+						     srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">Radial Drills</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">MAS Drill #VR2</li>
+								<li class="list-group-item">Stanko Drill # CS1600</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img alt="Card image cap" class="card-img-top"
+						     src="img/facility/tristar-17.jpg" srcset="img/facility/tristar-17.webp">
+						<div class="card-body">
+							<h5 class="card-title">1200 Ton Press</h5>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">depth x width</li>
+								<li class="list-group-item">capabilities</li>
+								<li class="list-group-item">Linear Transfer System</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-3 md-mb-0 mb-3 text-white">
-				<h5 class="text-uppercase">Contacts</h5>
-				<ul class="list-unstyled">
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:tnobe@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Tnobe Pmrgare</n>".replace(/[a-zA-Z]/g,
-                                function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-						</script>
+		</div>
+	</section>
+	<section id="portfolio">
+		<div class="row d-flex p-5">
+			<div class="container m-4 col-md-2 ml-auto display-2" data-aos="zoom-in-right"
+			     data-aos-anchor-placement="bottom-bottom">
+				<i class="fas fa-wrench fa-2x text-center"></i>
+				<h2 class="display-4 text-uppercase">Portfolio</h2>
+			</div>
+			<div class="container text-black-50 col-md-8 ml-auto" data-aos="zoom-in-left"
+			     data-aos-anchor-placement="bottom-bottom">
+				<div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#portfolioCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="1"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="2"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="3"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="4"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="5"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="6"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="7"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="8"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="9"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="10"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="11"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="12"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="13"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="14"></li>
+						<li data-target="#portfolioCarousel" data-slide-to="15"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img alt="Bracket" class="d-block w-100" src="img/portfolio/1.png"
+							     srcset="img/portfolio/1.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Bracket</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Lift Plate" class="d-block w-100" src="img/portfolio/2.png"
+							     srcset="img/portfolio/2.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Lift Plate</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Main Arm" class="d-block w-100" src="img/portfolio/3.png"
+							     srcset="img/portfolio/3.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Main Arm</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Base Plate" class="d-block w-100" src="img/portfolio/4.png"
+							     srcset="img/portfolio/4.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Base Plate</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Striker Plate" class="d-block w-100" src="img/portfolio/5.png"
+							     srcset="img/portfolio/5.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Striker Plate</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Secondary Catch" class="d-block w-100" src="img/portfolio/6.png"
+							     srcset="img/portfolio/6.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Secondary Catch</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Unknown" class="d-block w-100" src="img/portfolio/3.png"
+							     srcset="img/portfolio/7.webp">
+							<div class="carousel-caption d-none d-md-block">
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Reinforcement Bracket" class="d-block w-100" src="img/portfolio/8.png"
+							     srcset="img/portfolio/8.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Reinforcement Bracket</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Mounting Bracket" class="d-block w-100" src="img/portfolio/9.png"
+							     srcset="img/portfolio/9.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Mounting Bracket</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Hood Hinge" class="d-block w-100" src="img/portfolio/10.png"
+							     srcset="img/portfolio/10.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Hood Hinge</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Rail" class="d-block w-100" src="img/portfolio/11.png"
+							     srcset="img/portfolio/11.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Rail</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Outer Bracket" class="d-block w-100" src="img/portfolio/12.png"
+							     srcset="img/portfolio/12.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Outer Bracket</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Truss" class="d-block w-100" src="img/portfolio/13.png"
+							     srcset="img/portfolio/13.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Truss</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Sector" class="d-block w-100" src="img/portfolio/14.png"
+							     srcset="img/portfolio/14.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Sector</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Clutch Housing" class="d-block w-100" src="img/portfolio/15.png"
+							     srcset="img/portfolio/15.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Clutch Housing</h5>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img alt="Hinge Bracket" class="d-block w-100" src="img/portfolio/16.png"
+							     srcset="img/portfolio/16.webp">
+							<div class="carousel-caption d-none d-md-block">
+								<h5>Hinge Bracket</h5>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#portfolioCarousel" role="button"
+					   data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#portfolioCarousel" role="button"
+					   data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<div class="row p-5">
+				<div class="col-lg ml-auto display-2" data-aos="zoom-in-right"
+				     data-aos-anchor-placement="bottom-bottom">
+					<i class="fas fa-wrench fa-2x text-center"></i>
+					<h2 class="display-4 text-uppercase">Contact</h2>
+				</div>
+				<div class="col-lg-2" data-aos="fade-right" data-aos-delay="50" data-aos-anchor-placement="bottom-bottom">
+						<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+						     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+						     role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title>
+							<rect width="100%" height="100%" fill="#777"></rect>
+							<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+						</svg>
+						<h2>Gabor Czetner</h2>
+						<p>General Manager</p>
+						<p>
+							<script type="text/javascript">
+                            document.write("<n pynff=\"oga oga-frpbaqnel\" uers=\"znvygb:tnobe@gevfgnefgnzcvat.pn\" ebyr=\"ohggba\">Rznvy Zr</n>".replace(/[a-zA-Z]/g,
+                                function (c) {
+                                    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                }));
+							</script>
+						</p>
 						<noscript>Please enable JavaScript to view Gabor's email address</noscript>
-					</li>
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:xcrgpu@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Xrag Crgpu</n>".replace(/[a-zA-Z]/g,
-                                function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-						</script>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-2" data-aos="fade-right" data-aos-delay="100" data-aos-anchor-placement="bottom-bottom">
+						<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+						     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+						     role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title>
+							<rect width="100%" height="100%" fill="#777"></rect>
+							<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+						</svg>
+						<h2>Kent Petch</h2>
+						<p>Plant Manager</p>
+						<p>
+							<script type="text/javascript">
+                                document.write("<n pynff=\"oga oga-frpbaqnel\" uers=\"znvygb:xcrgpu@gevfgnefgnzcvat.pn\" ebyr=\"ohggba\">Rznvy Zr</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+						</p>
 						<noscript>Please enable JavaScript to view Kent's email address</noscript>
-					</li>
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:zcnex@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Znafbba Cnex</n>".replace(/[a-zA-Z]/g,
-                                function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-						</script><noscript>Please enable JavaScript to view Mansoon's email address</noscript>
-					</li>
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:oerohea@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Ovyy Erohea</n>".replace(/[a-zA-Z]/g,
-                                function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-						</script><noscript>Please enable JavaScript to view Bill's email address</noscript>
-					</li>
-				</ul>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-2" data-aos="fade-right"  data-aos-delay="200" data-aos-anchor-placement="bottom-bottom">
+						<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+						     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+						     role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title>
+							<rect width="100%" height="100%" fill="#777"></rect>
+							<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+						</svg>
+						<h2>Mansoon Park</h2>
+						<p>Materials Manager</p>
+						<p>
+							<script type="text/javascript">
+                                document.write("<n pynff=\"oga oga-frpbaqnel\" uers=\"znvygb:zcnex@gevfgnefgnzcvat.pn\" ebyr=\"ohggba\">Rznvy Zr</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+						</p>
+						<noscript>Please enable JavaScript to view Mansoon's email address</noscript>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-2" data-aos="fade-right"  data-aos-delay="300" data-aos-anchor-placement="bottom-bottom">
+						<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+						     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+						     role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title>
+							<rect width="100%" height="100%" fill="#777"></rect>
+							<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+						</svg>
+						<h2>Bill Reburn</h2>
+						<p>Quality Manager</p>
+						<p>
+							<script type="text/javascript">
+                                document.write("<n pynff=\"oga oga-frpbaqnel\" uers=\"znvygb:oerohea@gevfgnefgnzcvat.pn\" ebyr=\"ohggba\">Rznvy Zr</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+						</p>
+						<noscript>Please enable JavaScript to view Bill's email address</noscript>
+					</div><!-- /.col-lg-4 -->
+				</div>
+
+				</div>
 			</div>
 		</div>
-	</div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	</section>
+	<footer class="page-footer font-small bg-black pt-4">
+		<div class="container-fluid text-center text-md-left">
+			<div class="row">
+				<div class="col-md-6 mt-md-0 mt-3 text-white">
+					<h5 class="text-uppercase" data-aos="zoom-out-right" data-aos-delay="25" data-aos-anchor-placement="top-bottom">Tri-Star Metal Stamping Inc.</h5>
+					<p data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom">Professional. Precision. Perfection.</p>
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-3 md-md-0 mb-3 text-white" data-aos="fade-down" data-aos-anchor-placement="top-bottom">
+					<h5 class="text-uppercase">Links</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#services">Services</a>
+						</li>
+						<li>
+							<a href="#facilities">Facilities</a>
+						</li>
+						<li>
+							<a href="#portfolio">Portfolio</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 md-mb-0 mb-3 text-white" data-aos="fade-down" data-aos-anchor-placement="top-bottom">
+					<h5 class="text-uppercase">Contacts</h5>
+					<ul class="list-unstyled">
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:tnobe@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Tnobe Pmrgare</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Gabor's email address</noscript>
+						</li>
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:xcrgpu@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Xrag Crgpu</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Kent's email address</noscript>
+						</li>
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:zcnex@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Znafbba Cnex</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Mansoon's email address</noscript>
+						</li>
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:oerohea@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Ovyy Erohea</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Bill's email address</noscript>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</main>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script crossorigin="anonymous"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
