@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext,tamil');
-
+/*add Google Font Catamaran, Lato*/
 header {
     position: relative;
     background-color: black;
@@ -8,7 +8,7 @@ header {
     width: 100%;
     overflow: hidden;
 }
-
+/*Header Video from mdbootstrap.com */
 header video {
     position: absolute;
     top: 50%;
@@ -42,7 +42,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background-image: url("//img/facility/tristar-2.jpg");
+        background-color: black;
     }
     header video {
         display: none;
@@ -88,13 +88,7 @@ html {
     scroll-behavior: smooth;
     background-color: black;
 }
-.service {
-    background-image: url("../img/facility/tristar-22.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-
+/* Solution from https://www.ostraining.com/blog/coding/responsive-google-maps/ */
 .map-responsive{
     overflow:hidden;
     padding-bottom:52vh;
