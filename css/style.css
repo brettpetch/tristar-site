@@ -15,7 +15,8 @@
     overflow: hidden;
     z-index: -100;
     min-width: 100vw;
-    min-height: 20 vh;
+    min-height: 100vh;
+    content: "";
 }
 
 body {
