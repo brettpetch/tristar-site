@@ -86,5 +86,11 @@ h6 {
 }
 html {
     scroll-behavior: smooth;
-    background-color: black;s
+    background-color: black;
+}
+.service {
+    background-image: url("../img/facility/tristar-22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
 }
