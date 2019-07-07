@@ -1,29 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext,tamil');
 
-.jumbotron{
+header {
     position: relative;
-    z-index:-101;
-    filter: grayscale(100%);
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
     overflow: hidden;
 }
 
-#video-background {
-    position: fixed;
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
     top: 0;
-    right: 0;
-    bottom: 0;
     left: 0;
-    overflow: hidden;
-    z-index: -100;
-    min-width: 100vw;
-    min-height: 100vh;
-    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+    }
+    header video {
+    }
 }
 
 body {
     font-family: 'Lato';
     background-color: black;
-    overflow-x: hidden;
 }
 
 h1,
@@ -56,58 +82,7 @@ h6 {
 .rounded-pill {
     border-radius: 5rem;
 }
-
-.navbar-custom {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.navbar-custom .navbar-brand {
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    font-weight: 700;
-}
-
-.navbar-custom .navbar-nav .nav-item .nav-link {
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-}
-
-header.masthead {
-    position: relative;
-    overflow: hidden;
-    padding-top: calc(15rem + 72px);
-    padding-bottom: 15rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: auto;
-}
-
-header.masthead .masthead-content {
-    z-index: 1;
-    position: relative;
-}
-
-header.masthead .masthead-content .masthead-heading {
-    font-size: 4rem;
-}
-
-header.masthead .masthead-content .masthead-subheading {
-    font-size: 2rem;
-}
-.main {
-    background-color: white;
-    color: black;
-    background-size: cover;
-    z-index: -99;
-    width: 100%;
-}
 html {
     scroll-behavior: smooth;
+    background-color: black;s
 }
