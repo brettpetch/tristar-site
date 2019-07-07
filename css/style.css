@@ -3,7 +3,8 @@
 .jumbotron{
     position: relative;
     z-index:-101;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    overflow: hidden;
 }
 
 #video-background {
@@ -21,6 +22,8 @@
 
 body {
     font-family: 'Lato';
+    background-color: black;
+    overflow-x: hidden;
 }
 
 h1,
@@ -81,7 +84,7 @@ header.masthead {
     padding-bottom: 15rem;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     margin: auto;
 }
