@@ -42,8 +42,10 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
+        background-image: url("//img/facility/tristar-2.jpg");
     }
     header video {
+        display: none;
     }
 }
 
