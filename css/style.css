@@ -1,57 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext,tamil');
 /*add Google Font Catamaran, Lato*/
 header {
-    position: relative;
-    background-color: black;
-    height: 75vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
+	position: relative;
+	background-color: black;
+	height: 80vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
 }
-/*Header Video from mdbootstrap.com */
+/*Header Video from https://startbootstrap.com/snippets/video-header/ */
 header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 }
 
 header .container {
-    position: relative;
-    z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 
 header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
 }
 
 @media (pointer: coarse) and (hover: none) {
-    header {
-        background-color: black;
-    }
-    header video {
-        display: none;
-    }
+	header {
+		background-color: black;
+	}
+	header video {
+		display: none;
+	}
 }
 
 body {
-    font-family: 'Lato';
-    background-color: black;
+	font-family: 'Lato';
+	background-color: black;
 }
 
 h1,
@@ -60,52 +60,52 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Catamaran';
-    font-weight: 800 !important;
+	font-family: 'Catamaran';
+	font-weight: 800 !important;
 }
 @screen and (max-width: 500px) {
 
-    h5 {
-        font-size: 32px;
-    }
+	h5 {
+		font-size: 32px;
+	}
 }
 .btn-xl {
-    text-transform: uppercase;
-    padding: 1.5rem 3rem;
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	padding: 1.5rem 3rem;
+	font-size: 0.9rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
 }
 
 .bg-black {
-    background-color: #000 !important;
+	background-color: #000 !important;
 }
 
 .rounded-pill {
-    border-radius: 5rem;
+	border-radius: 5rem;
 }
 html {
-    scroll-behavior: smooth;
-    background-color: black;
+	scroll-behavior: smooth;
+	background-color: black;
 }
 /* Solution from https://www.ostraining.com/blog/coding/responsive-google-maps/ */
 .map-responsive{
-    overflow:hidden;
-    padding-bottom:52vh;
-    position:relative;
-    height:0;
+	overflow:hidden;
+	padding-bottom:52vh;
+	position:relative;
+	height:0;
 }
 .map-responsive iframe{
-    left:0;
-    top:0;
-    height:50vh;
-    width:100%;
-    position:absolute;
+	left:0;
+	top:0;
+	height:50vh;
+	width:100%;
+	position:absolute;
 }
 footer {
-    padding-bottom: 1vh;
+	padding-bottom: 1vh;
 }
 section {
-    padding-top: 60px;
-    margin-top: -60px;
+	padding-top: 60px;
+	margin-top: -60px;
 }
