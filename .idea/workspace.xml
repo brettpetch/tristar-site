@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" line="93" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="180" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b74d3da2-08f7-402f-bb5c-01c93cd19338" name="Default Changelist" comment="" />
+    <list default="true" id="b74d3da2-08f7-402f-bb5c-01c93cd19338" name="Default Changelist" comment="line 277">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="54" column="72" lean-forward="true" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+            <state relative-caret-position="292">
+              <caret line="432" column="35" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -40,24 +43,52 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>img</find>
+      <find>eagle</find>
+      <find>display</find>
+      <find>display-3</find>
+      <find>h3</find>
+      <find>DATA-OFFSET</find>
+      <find>list-group-item</find>
+      <find>animate</find>
+      <find>display-5</find>
+      <find>flex</find>
+      <find>section class</find>
+      <find>fade</find>
+      <find>left</find>
+      <find>picture</find>
+      <find>text-</find>
+      <find>text-black</find>
+      <find>li</find>
+      <find>press oper</find>
     </findStrings>
+    <replaceStrings>
+      <replace>list-group-item animated slideInRight delay-3s</replace>
+      <replace>2s</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Brett Petch &lt;brettpetch@icloud.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/aos.css" />
+        <option value="$PROJECT_DIR$/js/aos.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1096" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1432" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -81,7 +112,19 @@
             <path>
               <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="aos.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="aos.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
@@ -97,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -105,6 +148,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brett\OneDrive\Documents\bootstrap\js" />
+      <recent name="C:\Users\brett\OneDrive\Documents\bootstrap\css" />
       <recent name="C:\Users\brett\OneDrive\Documents\bootstrap" />
     </key>
   </component>
@@ -140,22 +185,34 @@
       <workItem from="1561509931967" duration="2463000" />
       <workItem from="1561585012853" duration="5167000" />
       <workItem from="1561590199128" duration="634000" />
-      <workItem from="1561592158273" duration="1474000" />
+      <workItem from="1561592158273" duration="2657000" />
+      <workItem from="1561596220727" duration="1872000" />
+      <workItem from="1561761280625" duration="3988000" />
+      <workItem from="1561839120449" duration="1257000" />
+      <workItem from="1561927553965" duration="3074000" />
+      <workItem from="1561930691821" duration="32000" />
+      <workItem from="1562114959394" duration="2609000" />
+      <workItem from="1562419550541" duration="4176000" />
+      <workItem from="1562429126589" duration="11618000" />
+      <workItem from="1562512125903" duration="636000" />
+      <workItem from="1562512808650" duration="4239000" />
+      <workItem from="1562520357753" duration="15076000" />
+      <workItem from="1562545871283" duration="770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16401000" />
+    <option name="totallyTimeSpent" value="66931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="0" width="1497" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49520767" visible="true" weight="0.1691254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49520767" visible="true" weight="0.22001371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50479233" side_tool="true" weight="0.1691254" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -164,7 +221,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.33191034" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.14727855" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49947312" visible="true" weight="0.32977587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -173,46 +231,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="line 277" />
+    <option name="LAST_COMMIT_MESSAGE" value="line 277" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_startbootstrap-one-page-wonder-gh-pages.zip/startbootstrap-one-page-wonder-gh-pages/css/one-page-wonder.css" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-13.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -221,17 +254,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-reboot.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-2.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-4.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-5.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-6.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-7.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-8.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-9.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-10.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-12.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-13.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-14.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-15.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-16.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-17.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-18.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-19.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-20.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-21.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/originals/tristar-22.jpg" />
+    <entry file="file://$PROJECT_DIR$/css/aos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/aos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5688">
+          <caret line="237" column="36" selection-start-line="237" selection-start-column="36" selection-end-line="237" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/facility/tristar-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/aos.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/aos.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-end-column="28765" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        <state relative-caret-position="24">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="72" lean-forward="true" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+        <state relative-caret-position="292">
+          <caret line="432" column="35" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="35" />
         </state>
       </provider>
     </entry>
