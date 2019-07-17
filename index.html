@@ -6,6 +6,7 @@
 	      name="description">
 	<meta content="Tri-Star, Stamping, Press, Metal Stamping, Sheet Metal, Shop, Tool and Die, Tool, Die"
 	      name="keywords">
+	<meta name="theme-color" content="#343a40"/>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>Tri-Star Metal Stamping Inc.</title>
 	<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -13,6 +14,7 @@
 	<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/aos.min.css" rel="stylesheet"/>
+	<link rel="manifest" href="/manifest.json">
 
 	<!-- Google Structured Data View, DO NOT MODIFY -->
 	<script type="application/ld+json">
@@ -194,9 +196,9 @@
 						<div class="card-body">
 							<h5 class="card-title">1200 Ton Press</h5>
 							<ul class="list-group list-group-flush">
-								<li class="list-group-item">depth x width</li>
-								<li class="list-group-item">capabilities</li>
-								<li class="list-group-item">Linear Transfer System</li>
+								<li class="list-group-item">144x54 Bolster Size</li>
+								<li class="list-group-item">x inch Stroke, y-z Strokes per Minute</li>
+								<li class="list-group-item">Decoiler - xx,xxx lbs., yy inch width capacity</li>
 							</ul>
 						</div>
 					</div>
@@ -791,7 +793,7 @@
 		</div>
 		<div class="container-fluid">
 			<div class="map-responsive" data-aos="fade-down" data-aos-anchor-placement="middle-bottom">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11464.70634241572!2d-79.42792!3d44.079709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0aa7d17591f0da0!2sTri-Star+Metal+Stampings!5e0!3m2!1sen!2sca!4v1562526252107!5m2!1sen!2sca"
+				<iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11464.70634241572!2d-79.42792!3d44.079709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0aa7d17591f0da0!2sTri-Star+Metal+Stampings!5e0!3m2!1sen!2sca!4v1562526252107!5m2!1sen!2sca"
 				        width="600" height="450" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
@@ -800,6 +802,14 @@
 <footer class="page-footer font-small bg-dark pt-4">
 	<div class="container-fluid text-center text-md-left">
 		<div class="container">
+			<div class="row">
+				<div class="col-md-12 md-mb-0 mb-3 text-secondary" data-aos="fade-down"
+				     data-aos-anchor-placement="top-bottom">
+					<h6 class="text-uppercase">Quality Policy</h6>
+					<p class="text-sm-left">Tri-Star Metal Stampings Inc. accepts responsibility in striving to become the "best-in-class" supplier of stamped metal parts. We will continue to seek business opportunities focused in this field ensuring growth as the market expands. Our priorities will target efficiency to reduce operational costs and improve our competitive position with other suppliers. We shall serve our customers as efficiently and effectively as possible by delivering the highest quality, on time, at a competitive price. We will conduct business under the guidelines of the following priorities: Safety of Employees, Quality, and Continuous Improvement.
+						Conformance to Customer Standards/Specifications and Government Requirements is the very minimum expectation of our organization. Operating by these priorities will ensure a participative atmosphere created by mutual trust, respect and recognition of individual’s input. This will provide the opportunity for growth and self-satisfaction for all our employees. The philosophy, goals and objectives of Tri-Star Metal Stampings Inc. will be carried out through our Operating Procedures.</p>
+				</div>
+			</div>
 		<div class="row">
 			<div class="col-md-6 mt-md-0 mt-3 text-white">
 				<h5 class="text-uppercase" data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom"
@@ -883,9 +893,9 @@
 		</div>
 	</div>
 </footer>
-<script crossorigin="anonymous"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+		crossorigin="anonymous"></script>
 <script crossorigin="anonymous"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -928,5 +938,10 @@
     window.addEventListener("resize", lazyLoad);
     window.addEventListener("orientationchange", lazyLoad);
 });</script>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+    }
+</script>
 </body>
 </html>
