@@ -5,50 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b74d3da2-08f7-402f-bb5c-01c93cd19338" name="Default Changelist" comment="line 277">
-      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/offline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-10.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-10.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-12.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-12.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-13.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-13.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-14.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-14.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-15.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-15.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-16.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-16.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-17.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-17.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-18.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-18.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-19.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-19.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-20.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-20.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-21.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-21.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-22.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-22.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-4.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-5.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-6.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-7.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-8.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-8.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-9.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-9.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tristarlogo(CUnet)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tristarlogo(UpPhoto)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tristarlogo(UpRGB)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tristarlogo(UpRGB)(auto_scale)(Level3)(x8.000000).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tristarlogo(UpResNet10)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tristarlogo(Y)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tristarlogo.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -68,8 +33,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2570">
-              <caret line="809" column="30" selection-start-line="809" selection-start-column="30" selection-end-line="809" selection-end-column="30" />
+            <state relative-caret-position="394">
+              <caret line="134" column="12" lean-forward="true" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="804">
+              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -127,17 +101,17 @@
       <list>
         <option value="$PROJECT_DIR$/css/aos.css" />
         <option value="$PROJECT_DIR$/js/aos.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/sw.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/service-worker.js" />
         <option value="$PROJECT_DIR$/offline.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
@@ -147,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,25 +159,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitHub/hasp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\brett\OneDrive\Documents\bootstrap" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\brett\OneDrive\Documents\bootstrap\js" />
       <recent name="C:\Users\brett\OneDrive\Documents\bootstrap\css" />
+      <recent name="C:\Users\brett\OneDrive\Documents\bootstrap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brett\OneDrive\Documents\bootstrap" />
     </key>
   </component>
@@ -263,14 +237,17 @@
       <workItem from="1563236226994" duration="903000" />
       <workItem from="1563316279237" duration="2654000" />
       <workItem from="1563395671667" duration="2072000" />
+      <workItem from="1563406786914" duration="22000" />
+      <workItem from="1563490517833" duration="1894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80124000" />
+    <option name="totallyTimeSpent" value="82040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49520767" visible="true" weight="0.1691254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -498,15 +475,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state relative-caret-position="804">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2570">
-          <caret line="809" column="30" selection-start-line="809" selection-start-column="30" selection-end-line="809" selection-end-column="30" />
+        <state relative-caret-position="394">
+          <caret line="134" column="12" lean-forward="true" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
         </state>
       </provider>
     </entry>

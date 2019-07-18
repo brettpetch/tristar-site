@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext,tamil');
-/*add Google Font Catamaran, Lato*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,500,700,900&display=swap');  /*add Google Font Montserrat normal for Body, Roboto 700 for Headings, 900 for jumbotron header*/
+.bg-black {
+	background-color: #231F20;
+}
 header {
 	position: relative;
 	background-color: black;
@@ -50,8 +52,7 @@ header .overlay {
 }
 
 body {
-	font-family: 'Lato';
-	background-color: black;
+	font-family: 'Montserrat';
 }
 
 h1,
@@ -60,8 +61,11 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Catamaran';
-	font-weight: 800 !important;
+	font-family: 'Roboto';
+	font-weight: 700 !important;
+}
+h1 {
+	font-weight: 900 !important;
 }
 @screen and (max-width: 500px) {
 
@@ -108,4 +112,8 @@ footer {
 section {
 	padding-top: 60px;
 	margin-top: -60px;
+}
+
+.masthead-logo {
+	width: 50%;
 }
