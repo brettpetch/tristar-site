@@ -3,19 +3,19 @@
   "name": "Tri-Star Metal Stampings Inc",
   "icons": [
     {
-      "src": "./img/icons-192.png",
+      "src": "img/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./img/icons-512.png",
+      "src": "img/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "./?source=pwa",
+  "start_url": "?source=pwa",
   "background_color": "#343a40",
   "display": "standalone",
-  "scope": "/",
+  "scope": "./",
   "theme_color": "#343a40"
 }
