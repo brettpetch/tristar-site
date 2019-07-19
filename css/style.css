@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto:400,500,700,900&display=swap');  /*add Google Font Montserrat normal for Body, Roboto 700 for Headings, 900 for jumbotron header*/
 .bg-black {
-	background-color: #231F20;
+	background-color: #000!important;
 }
 header {
 	position: relative;
@@ -80,11 +80,6 @@ h1 {
 	font-weight: 700;
 	letter-spacing: 0.1rem;
 }
-
-.bg-black {
-	background-color: #000 !important;
-}
-
 .rounded-pill {
 	border-radius: 5rem;
 }
