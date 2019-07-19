@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b74d3da2-08f7-402f-bb5c-01c93cd19338" name="Default Changelist" comment="line 277">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facility/tristar-9.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/facility/tristar-9.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/tristarlogo(CUnet)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/tristarlogo(UpPhoto)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/tristarlogo(UpRGB)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
@@ -15,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/img/tristarlogo(UpResNet10)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/tristarlogo(Y)(auto_scale)(Level3)(x4.000000).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="676" column="63" selection-start-line="676" selection-start-column="63" selection-end-line="676" selection-end-column="63" />
+            <state relative-caret-position="540">
+              <caret line="705" column="26" selection-start-line="705" selection-start-column="26" selection-end-line="705" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -103,15 +110,15 @@
         <option value="$PROJECT_DIR$/css/aos.css" />
         <option value="$PROJECT_DIR$/js/aos.js" />
         <option value="$PROJECT_DIR$/js/sw.js" />
-        <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/service-worker.js" />
         <option value="$PROJECT_DIR$/offline.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/manifest.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -244,18 +251,18 @@
       <workItem from="1563316279237" duration="2654000" />
       <workItem from="1563395671667" duration="2072000" />
       <workItem from="1563406786914" duration="22000" />
-      <workItem from="1563490517833" duration="6523000" />
+      <workItem from="1563490517833" duration="8918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86669000" />
+    <option name="totallyTimeSpent" value="89064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49520767" visible="true" weight="0.1691254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49520767" visible="true" weight="0.3429487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50479233" side_tool="true" weight="0.1691254" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -451,13 +458,6 @@
     <entry file="file://$PROJECT_DIR$/img/facility/tristar-13.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -488,8 +488,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="676" column="63" selection-start-line="676" selection-start-column="63" selection-end-line="676" selection-end-column="63" />
+        <state relative-caret-position="540">
+          <caret line="705" column="26" selection-start-line="705" selection-start-column="26" selection-end-line="705" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
