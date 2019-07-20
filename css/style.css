@@ -67,7 +67,7 @@ h6 {
 h1 {
 	font-weight: 900 !important;
 }
-@screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
 	h5 {
 		font-size: 32px;
