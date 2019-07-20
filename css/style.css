@@ -73,6 +73,21 @@ h1 {
 		font-size: 32px;
 	}
 }
+@media screen and (max-height: 450px) {
+	.masthead-logo {
+		max-width: 25%;
+	}
+}
+@media screen and (min-height: 450px) {
+	.masthead-logo {
+		max-width: 33%;
+	}
+}
+@media screen and (min-height: 600px) {
+	.masthead-logo {
+		max-width: 55%;
+	}
+}
 .btn-xl {
 	text-transform: uppercase;
 	padding: 1.5rem 3rem;
