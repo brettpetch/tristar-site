@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b74d3da2-08f7-402f-bb5c-01c93cd19338" name="Default Changelist" comment="line 277">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +26,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="468" column="67" selection-start-line="468" selection-start-column="67" selection-end-line="468" selection-end-column="67" />
+            <state relative-caret-position="117">
+              <caret line="953" column="35" lean-forward="true" selection-start-line="953" selection-start-column="35" selection-end-line="953" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -43,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
+            <state relative-caret-position="828">
               <caret line="131" column="109" selection-end-line="133" selection-end-column="1" />
             </state>
           </provider>
@@ -107,8 +117,9 @@
         <option value="$PROJECT_DIR$/offline.html" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/service-worker.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -129,22 +140,6 @@
             <path>
               <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="facility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
@@ -238,12 +233,13 @@
       <workItem from="1563575723637" duration="1526000" />
       <workItem from="1563635415638" duration="4000000" />
       <workItem from="1563641570370" duration="2813000" />
-      <workItem from="1563726505942" duration="1832000" />
+      <workItem from="1563726505942" duration="2934000" />
+      <workItem from="1563744237299" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100170000" />
+    <option name="totallyTimeSpent" value="101813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -284,8 +280,6 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-5.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/originals/tristar-6.jpg" />
     <entry file="file://$PROJECT_DIR$/img/originals/tristar-7.jpg" />
     <entry file="file://$PROJECT_DIR$/img/originals/tristar-8.jpg" />
     <entry file="file://$PROJECT_DIR$/img/originals/tristar-9.jpg" />
@@ -465,6 +459,19 @@
     <entry file="file://$PROJECT_DIR$/img/portfolio/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/facility/tristar-22.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="131" column="109" selection-end-line="133" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -472,20 +479,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/facility/tristar-22.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="131" column="109" selection-end-line="133" selection-end-column="1" />
+        <state relative-caret-position="408">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="468" column="67" selection-start-line="468" selection-start-column="67" selection-end-line="468" selection-end-column="67" />
+        <state relative-caret-position="117">
+          <caret line="953" column="35" lean-forward="true" selection-start-line="953" selection-start-column="35" selection-end-line="953" selection-end-column="35" />
         </state>
       </provider>
     </entry>

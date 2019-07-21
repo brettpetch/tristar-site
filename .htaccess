@@ -1,0 +1,23 @@
+<Files .htaccess>
+
+order allow,deny
+
+deny from all
+
+</Files>
+
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+# serve custom error pages
+
+ErrorDocument 400 /index.html
+
+ErrorDocument 401 /index.html
+
+ErrorDocument 403 /index.html
+
+ErrorDocument 404 /index.html
+
+ErrorDocument 500 /index.html
