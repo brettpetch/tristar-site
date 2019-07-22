@@ -15,15 +15,19 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/aos.min.css" rel="stylesheet"/>
 	<link href="manifest.json" rel="manifest">
-	<link rel="apple-touch-icon" href="img/icons-192.png" />
+	<link href="img/icons-192.png" rel="apple-touch-icon"/>
 	<link rel="icon" type="image/png"
 	      href="logo.png">
-	<meta property="og:image" content="img/icons-512.png" />
+	<meta content="img/icons-512.png" property="og:image"/>
 	<!-- brettpetch.ca Tracking Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45906012-10"></script>
 	<script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-45906012-10');
@@ -164,8 +168,10 @@
 	<div class="container h-100 mt-3 mb-3">
 		<div class="d-flex h-100 text-center align-items-center">
 			<div class="w-100 text-white pb-5">
-				<img alt="Tri-Star Metal Stampings Inc." data-aos="zoom-in" src="./img/logo.svg" class="masthead-logo pt-3 pb-3" />
-				<p class="lead mb-3 mt-0" data-aos="zoom-in-up" data-aos-delay="200">Professional. Precision. Perfection.</p>
+				<img alt="Tri-Star Metal Stampings Inc." class="masthead-logo pt-3 pb-3" data-aos="zoom-in"
+				     src="./img/logo.svg"/>
+				<p class="lead mb-3 mt-0" data-aos="zoom-in-up" data-aos-delay="200">Professional. Precision.
+					Perfection.</p>
 				<a class="btn btn-primary btn-xl rounded-pill"
 				   data-aos="fade-up"
 				   data-aos-anchor-placement="top-bottom"
@@ -174,18 +180,18 @@
 		</div>
 	</div>
 </header>
-<main class="main bg-black text-white">
-	<section class="container-fluid" id="services">
+<main class="main bg-light">
+	<section class="container-fluid bg-transparent" id="services">
 		<div class="container">
 			<div class="row d-flex p-5">
-				<div class="col-md-4 ml-auto display-2"
+				<div class="col-md-4 ml-auto display-2 text-primary"
 				     data-aos="zoom-in-right"
 				     data-aos-anchor-placement="middle-bottom"
 				     data-aos-delay="400">
 					<i class="fas fa-wrench fa-2x text-center"></i>
 					<h2 class="display-4 text-uppercase">Services</h2>
 				</div>
-				<div class="col-md-6 ml-auto" data-aos="zoom-in-right" data-aos-anchor-placement="middle-bottom"
+				<div class="col-md-7 ml-auto" data-aos="zoom-in-right" data-aos-anchor-placement="middle-bottom"
 				     data-aos-delay="400">
 					<div>
 						<p>Tri-Star Metal Stampings is a large Tier 2 Automotive supplier of stamped components
@@ -206,7 +212,7 @@
 	</section>
 	<section class="container-fluid" id="facilities">
 		<div class="row d-flex p-3">
-			<div class="container m-4 col-lg-2 ml-auto display-2"
+			<div class="container m-4 col-lg-2 ml-auto display-2 text-warning"
 			     data-aos="fade-up">
 				<i class="fas fa-building fa-2x text-center"></i>
 				<h2 class="display-4 text-uppercase">Facilities</h2>
@@ -465,8 +471,38 @@
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid" id="portfolio">
-		<div class="row d-flex p-5 bg-secondary align-items-center">
+	<section class="container-fluid bg-quality text-white" id="quality">
+		<div class="container p-5 mb-5">
+			<div class="row d-flex p-3 justify-content-center">
+				<div class="col-md-4 ml-auto display-2" data-aos="zoom-in-right"
+				     data-aos-anchor-placement="middle-bottom" data-aos-delay="400">
+					<i class="fas fa-clipboard-check fa-2x text-center"></i>
+					<h2 class="display-4 text-uppercase">Quality</h2>
+				</div>
+				<div class="col-md-8 align-self-center" data-aos="zoom-in-right"
+				     data-aos-anchor-placement="middle-bottom"
+				     data-aos-delay="400">
+					<div>
+						Our Policy: Tri-Star Metal Stampings Inc. accepts responsibility in striving to become the
+						"best-in-class" supplier of stamped metal parts. We will continue to seek business opportunities
+						focused in this field ensuring growth as the market expands. Our priorities will target
+						efficiency to reduce operational costs and improve our competitive position with other
+						suppliers. We shall serve our customers as efficiently and effectively as possible by delivering
+						the highest quality, on time, at a competitive price. We will conduct business under the
+						guidelines of the following priorities: Safety of Employees, Quality, and Continuous
+						Improvement. Conformance to Customer Standards/Specifications and Government Requirements is the
+						very minimum expectation of our organization. Operating by these priorities will ensure a
+						participative atmosphere created by mutual trust, respect and recognition of individual’s input.
+						This will provide the opportunity for growth and self-satisfaction for all our employees. The
+						philosophy, goals and objectives of Tri-Star Metal Stampings Inc. will be carried out through
+						our Operating Procedures.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid text-white" id="portfolio">
+		<div class="row d-flex p-5 bg-dark align-items-center">
 			<div class="container m-4 col-md-2 ml-auto display-2" data-aos="zoom-in-right"
 			     data-aos-anchor-placement="middle-bottom">
 				<i class="fas fa-wrench fa-2x text-center"></i>
@@ -684,29 +720,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid bg-quality p-5" id="quality">
-		<div class="container mb-5">
-			<div class="row d-flex p-3 justify-content-center">
-				<div class="col-md-4 ml-auto display-2" data-aos="zoom-in-right"
-				     data-aos-anchor-placement="middle-bottom" data-aos-delay="400">
-					<i class="fas fa-clipboard-check fa-2x text-center"></i>
-					<h2 class="display-4 text-uppercase">Quality</h2>
-				</div>
-				<div class="col-md-7 align-self-center" data-aos="zoom-in-right" data-aos-anchor-placement="middle-bottom"
-				     data-aos-delay="400">
-					<div>
-						Our Policy: Tri-Star Metal Stampings Inc. accepts responsibility in striving to become the "best-in-class" supplier of stamped metal parts. We will continue to seek business opportunities focused in this field ensuring growth as the market expands. Our priorities will target efficiency to reduce operational costs and improve our competitive position with other suppliers. We shall serve our customers as efficiently and effectively as possible by delivering the highest quality, on time, at a competitive price. We will conduct business under the guidelines of the following priorities: Safety of Employees, Quality, and Continuous Improvement. Conformance to Customer Standards/Specifications and Government Requirements is the very minimum expectation of our organization. Operating by these priorities will ensure a participative atmosphere created by mutual trust, respect and recognition of individual’s input. This will provide the opportunity for growth and self-satisfaction for all our employees. The philosophy, goals and objectives of Tri-Star Metal Stampings Inc. will be carried out through our Operating Procedures.
-					</div>
-					<div>For inquires related to quality, please see our <a class="btn btn-info"
-					                                                        href="#contact">Contact</a> section.
-					</div>
-					<div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="container-fluid bg-primary p-5" id="employment">
+
+	<section class="container-fluid bg-primary p-5 text-white" id="employment">
 		<div class="container mb-5">
 			<div class="row d-flex p-3 justify-content-center">
 				<div class="col-md-6 ml-auto display-2" data-aos="zoom-in-right"
@@ -714,7 +729,8 @@
 					<i class="fas fa-wrench fa-2x text-center"></i>
 					<h2 class="display-4 text-uppercase">We're Hiring!</h2>
 				</div>
-				<div class="col-md-5 align-self-center" data-aos="zoom-in-right" data-aos-anchor-placement="middle-bottom"
+				<div class="col-md-5 align-self-center" data-aos="zoom-in-right"
+				     data-aos-anchor-placement="middle-bottom"
 				     data-aos-delay="400">
 					<div>
 						<ul class="p-2 mt-5">
@@ -723,11 +739,12 @@
 						</ul>
 					</div>
 					<div class="ml-3">
-					<a class="btn btn-outline-light btn-xl rounded-pill mt-4"
-					   data-aos="fade-up"
-					   data-aos-anchor-placement="top-bottom"
-					   data-aos-delay="350" href="mailto:resumes@tristarstamping.ca?subject=Attention: Human Resources">Apply
-						Now</a>
+						<a class="btn btn-outline-light btn-xl rounded-pill mt-4"
+						   data-aos="fade-up"
+						   data-aos-anchor-placement="top-bottom"
+						   data-aos-delay="350"
+						   href="mailto:resumes@tristarstamping.ca?subject=Attention: Human Resources">Apply
+							Now</a>
 					</div>
 				</div>
 			</div>
@@ -830,7 +847,8 @@
 		</div>
 		<div class="container-fluid">
 			<div class="map-responsive" data-aos="fade-down" data-aos-anchor-placement="middle-bottom">
-				<iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11464.70634241572!2d-79.42792!3d44.079709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0aa7d17591f0da0!2sTri-Star+Metal+Stampings!5e0!3m2!1sen!2sca!4v1562526252107!5m2!1sen!2sca"
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11464.70634241572!2d-79.42792!3d44.079709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0aa7d17591f0da0!2sTri-Star+Metal+Stampings!5e0!3m2!1sen!2sca!4v1562526252107!5m2!1sen!2sca"
+				        title="Google Maps"
 				        width="600" height="450" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
@@ -839,126 +857,140 @@
 <footer class="page-footer font-small bg-dark pt-4">
 	<div class="container-fluid text-center text-md-left">
 		<div class="container">
-		<div class="row">
-			<div class="col-md-6 mt-md-0 mt-3 text-white">
-				<h5 class="text-uppercase" data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom"
-				    data-aos-delay="25">Tri-Star Metal Stamping Inc.</h5>
-				<p data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom">Professional. Precision.
-					Perfection.</p>
-				<p class="text-secondary" data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom">
+			<div class="row">
+				<div class="col-md-6 mt-md-0 mt-3 text-white">
+					<h5 class="text-uppercase" data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom"
+					    data-aos-delay="25">Tri-Star Metal Stamping Inc.</h5>
+					<p data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom">Professional. Precision.
+						Perfection.</p>
+					<p class="text-secondary" data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom">
 						1267 Kerrisdale Blvd.<br/>
 						Newmarket, Ontario<br/>
-					L3Y 8W1, Canada</p>
-				<p data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom">t. <a href="tel://19058535583">+1
-					(905) 853-5583</a> <br/>
-					f. <a href="tel://19058536415">+1 (905) 853-6415</a></p>
+						L3Y 8W1, Canada</p>
+					<p data-aos="zoom-out-right" data-aos-anchor-placement="top-bottom">t. <a href="tel://19058535583">+1
+						(905) 853-5583</a> <br/>
+						f. <a href="tel://19058536415">+1 (905) 853-6415</a></p>
+				</div>
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<div class="col-md-3 md-md-0 mb-3 text-white" data-aos="fade-down"
+				     data-aos-anchor-placement="top-bottom">
+					<h5 class="text-uppercase">Links</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#services">Services</a>
+						</li>
+						<li>
+							<a href="#facilities">Facilities</a>
+						</li>
+						<li>
+							<a href="#portfolio">Portfolio</a>
+						</li>
+						<li>
+							<a href="#employment">Employment</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+						<li>
+							<a aria-controls="qualityPolicy" aria-expanded="false" data-toggle="collapse"
+							   href="#qualityPolicy"
+							   role="button">
+								Quality Policy
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3 md-mb-0 mb-3 text-white" data-aos="fade-down"
+				     data-aos-anchor-placement="top-bottom">
+					<h5 class="text-uppercase">Contacts</h5>
+					<ul class="list-unstyled">
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:tnobe@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Tnobe Pmrgare</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Gabor's email address</noscript>
+						</li>
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:xcrgpu@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Xrag Crgpu</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Kent's email address</noscript>
+						</li>
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:zcnex@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Znafbba Cnex</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Mansoon's email address</noscript>
+						</li>
+						<li>
+							<script type="text/javascript">
+                                document.write("<n uers=\"znvygb:oerohea@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Ovyy Erohea</n>".replace(/[a-zA-Z]/g,
+                                    function (c) {
+                                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+                                    }));
+							</script>
+							<noscript>Please enable JavaScript to view Bill's email address</noscript>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<hr class="clearfix w-100 d-md-none pb-3">
-			<div class="col-md-3 md-md-0 mb-3 text-white" data-aos="fade-down"
-			     data-aos-anchor-placement="top-bottom">
-				<h5 class="text-uppercase">Links</h5>
-				<ul class="list-unstyled">
-					<li>
-						<a href="#services">Services</a>
-					</li>
-					<li>
-						<a href="#facilities">Facilities</a>
-					</li>
-					<li>
-						<a href="#portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a href="#employment">Employment</a>
-					</li>
-					<li>
-						<a href="#contact">Contact</a>
-					</li>
-					<li>
-						<a data-toggle="collapse" href="#qualityPolicy" role="button" aria-expanded="false" aria-controls="qualityPolicy">
-							Quality Policy
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-3 md-mb-0 mb-3 text-white" data-aos="fade-down"
-			     data-aos-anchor-placement="top-bottom">
-				<h5 class="text-uppercase">Contacts</h5>
-				<ul class="list-unstyled">
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:tnobe@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Tnobe Pmrgare</n>".replace(/[a-zA-Z]/g,
-                                function (c) {
-                                    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
-                                }));
-						</script>
-						<noscript>Please enable JavaScript to view Gabor's email address</noscript>
-					</li>
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:xcrgpu@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Xrag Crgpu</n>".replace(/[a-zA-Z]/g,
-                                function (c) {
-                                    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
-                                }));
-						</script>
-						<noscript>Please enable JavaScript to view Kent's email address</noscript>
-					</li>
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:zcnex@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Znafbba Cnex</n>".replace(/[a-zA-Z]/g,
-                                function (c) {
-                                    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
-                                }));
-						</script>
-						<noscript>Please enable JavaScript to view Mansoon's email address</noscript>
-					</li>
-					<li>
-						<script type="text/javascript">
-                            document.write("<n uers=\"znvygb:oerohea@gevfgnefgnzcvat.pn\" ery=\"absbyybj\">Ovyy Erohea</n>".replace(/[a-zA-Z]/g,
-                                function (c) {
-                                    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
-                                }));
-						</script>
-						<noscript>Please enable JavaScript to view Bill's email address</noscript>
-					</li>
-				</ul>
-			</div>
-		</div>
 			<div class="row collapse" id="qualityPolicy">
 				<div class="col-md-12 md-mb-0 mb-3 text-secondary" data-aos="fade-down"
 				     data-aos-anchor-placement="top-bottom">
 					<h6 class="text-uppercase">Quality Policy</h6>
-					<p class="text-sm-left">Tri-Star Metal Stampings Inc. accepts responsibility in striving to become the "best-in-class" supplier of stamped metal parts. We will continue to seek business opportunities focused in this field ensuring growth as the market expands. Our priorities will target efficiency to reduce operational costs and improve our competitive position with other suppliers. We shall serve our customers as efficiently and effectively as possible by delivering the highest quality, on time, at a competitive price. We will conduct business under the guidelines of the following priorities: Safety of Employees, Quality, and Continuous Improvement.
-						Conformance to Customer Standards/Specifications and Government Requirements is the very minimum expectation of our organization. Operating by these priorities will ensure a participative atmosphere created by mutual trust, respect and recognition of individual’s input. This will provide the opportunity for growth and self-satisfaction for all our employees. The philosophy, goals and objectives of Tri-Star Metal Stampings Inc. will be carried out through our Operating Procedures.</p>
+					<p class="text-sm-left">Tri-Star Metal Stampings Inc. accepts responsibility in striving to become
+						the "best-in-class" supplier of stamped metal parts. We will continue to seek business
+						opportunities focused in this field ensuring growth as the market expands. Our priorities will
+						target efficiency to reduce operational costs and improve our competitive position with other
+						suppliers. We shall serve our customers as efficiently and effectively as possible by delivering
+						the highest quality, on time, at a competitive price. We will conduct business under the
+						guidelines of the following priorities: Safety of Employees, Quality, and Continuous
+						Improvement.
+						Conformance to Customer Standards/Specifications and Government Requirements is the very minimum
+						expectation of our organization. Operating by these priorities will ensure a participative
+						atmosphere created by mutual trust, respect and recognition of individual’s input. This will
+						provide the opportunity for growth and self-satisfaction for all our employees. The philosophy,
+						goals and objectives of Tri-Star Metal Stampings Inc. will be carried out through our Operating
+						Procedures.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-		crossorigin="anonymous"></script>
+        crossorigin="anonymous"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="></script>
 <script crossorigin="anonymous"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script crossorigin="anonymous"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script>document.addEventListener("DOMContentLoaded", function() {
+<script>document.addEventListener("DOMContentLoaded", function () {
     let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
     let active = false;
 
-    const lazyLoad = function() {
+    const lazyLoad = function () {
         if (active === false) {
             active = true;
 
-            setTimeout(function() {
-                lazyImages.forEach(function(lazyImage) {
+            setTimeout(function () {
+                lazyImages.forEach(function (lazyImage) {
                     if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
                         lazyImage.src = lazyImage.dataset.src;
                         lazyImage.srcset = lazyImage.dataset.srcset;
                         lazyImage.classList.remove("lazy");
 
-                        lazyImages = lazyImages.filter(function(image) {
+                        lazyImages = lazyImages.filter(function (image) {
                             return image !== lazyImage;
                         });
 
