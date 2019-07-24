@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b74d3da2-08f7-402f-bb5c-01c93cd19338" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,35 +22,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>img</find>
-      <find>eagle</find>
-      <find>display</find>
-      <find>display-3</find>
-      <find>h3</find>
-      <find>DATA-OFFSET</find>
-      <find>list-group-item</find>
-      <find>animate</find>
-      <find>display-5</find>
-      <find>flex</find>
-      <find>section class</find>
-      <find>fade</find>
-      <find>left</find>
-      <find>picture</find>
-      <find>text-</find>
-      <find>text-black</find>
-      <find>li</find>
-      <find>press oper</find>
-      <find>umb</find>
-      <find>jquery</find>
-      <find>.bg-bla</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>list-group-item animated slideInRight delay-3s</replace>
-      <replace>2s</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -73,12 +45,12 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\brett\OneDrive\Documents\bootstrap" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\brett\OneDrive\Documents\bootstrap\js" />
       <recent name="C:\Users\brett\OneDrive\Documents\bootstrap\css" />
+      <recent name="C:\Users\brett\OneDrive\Documents\bootstrap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brett\OneDrive\Documents\bootstrap" />
     </key>
   </component>
@@ -147,6 +119,9 @@
       <workItem from="1563827625150" duration="178000" />
       <workItem from="1563827944655" duration="31000" />
       <workItem from="1563827987802" duration="4495000" />
+      <workItem from="1563837369475" duration="609000" />
+      <workItem from="1563917705555" duration="753000" />
+      <workItem from="1563927333253" duration="7499000" />
     </task>
     <task id="LOCAL-00001" summary="line 277">
       <created>1563746425121</created>
